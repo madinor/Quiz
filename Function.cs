@@ -5,6 +5,7 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
 
 namespace Quiz
 {
@@ -28,5 +29,27 @@ namespace Quiz
              return ds;
    
         }
+        public void setData(String query, String msg) 
+        { 
+            SqlConnection con = getConnection();
+            SqlCommand cmd = new SqlCommand();
+            cmd.Connection = con;
+            con.Open();
+            cmd.CommandText = query;
+            cmd.ExecuteNonQuery();
+            con.Close();
+            MessageBox.Show(msg, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            
+
+
+
+
+
+
+
+
+
+        }
+
     }
 }
