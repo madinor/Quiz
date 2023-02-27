@@ -12,6 +12,7 @@ namespace Quiz
         protected SqlConnection getConnection()
         {
             SqlConnection con = new SqlConnection();
+            con.ConnectionString = "data source = (LocalDB)\\MSSQLLocalDB;database = quiz; integrated security = true";
             return con;
         }
 
