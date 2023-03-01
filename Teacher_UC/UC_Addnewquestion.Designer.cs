@@ -81,13 +81,15 @@
             this.txtSet.FocusedBaseColor = System.Drawing.Color.White;
             this.txtSet.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtSet.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtSet.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtSet.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSet.Location = new System.Drawing.Point(194, 131);
             this.txtSet.Name = "txtSet";
             this.txtSet.PasswordChar = '\0';
             this.txtSet.SelectedText = "";
-            this.txtSet.Size = new System.Drawing.Size(372, 36);
+            this.txtSet.Size = new System.Drawing.Size(372, 37);
             this.txtSet.TabIndex = 2;
+            this.txtSet.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtSet.TextChanged += new System.EventHandler(this.txtSet_TextChanged);
             // 
             // lbl
             // 
@@ -118,12 +120,12 @@
             this.txtQuestion.FocusedBaseColor = System.Drawing.Color.White;
             this.txtQuestion.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtQuestion.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtQuestion.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtQuestion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuestion.Location = new System.Drawing.Point(194, 279);
             this.txtQuestion.Name = "txtQuestion";
             this.txtQuestion.PasswordChar = '\0';
             this.txtQuestion.SelectedText = "";
-            this.txtQuestion.Size = new System.Drawing.Size(372, 36);
+            this.txtQuestion.Size = new System.Drawing.Size(372, 37);
             this.txtQuestion.TabIndex = 6;
             // 
             // gunaLabel5
@@ -144,12 +146,12 @@
             this.txtOption1.FocusedBaseColor = System.Drawing.Color.White;
             this.txtOption1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtOption1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtOption1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtOption1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtOption1.Location = new System.Drawing.Point(194, 370);
             this.txtOption1.Name = "txtOption1";
             this.txtOption1.PasswordChar = '\0';
             this.txtOption1.SelectedText = "";
-            this.txtOption1.Size = new System.Drawing.Size(372, 36);
+            this.txtOption1.Size = new System.Drawing.Size(372, 37);
             this.txtOption1.TabIndex = 8;
             // 
             // gunaLabel6
@@ -170,12 +172,12 @@
             this.txtOption2.FocusedBaseColor = System.Drawing.Color.White;
             this.txtOption2.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtOption2.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtOption2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtOption2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtOption2.Location = new System.Drawing.Point(198, 461);
             this.txtOption2.Name = "txtOption2";
             this.txtOption2.PasswordChar = '\0';
             this.txtOption2.SelectedText = "";
-            this.txtOption2.Size = new System.Drawing.Size(372, 36);
+            this.txtOption2.Size = new System.Drawing.Size(372, 37);
             this.txtOption2.TabIndex = 10;
             // 
             // gunaLabel7
@@ -196,12 +198,12 @@
             this.txtOption3.FocusedBaseColor = System.Drawing.Color.White;
             this.txtOption3.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtOption3.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtOption3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtOption3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtOption3.Location = new System.Drawing.Point(198, 552);
             this.txtOption3.Name = "txtOption3";
             this.txtOption3.PasswordChar = '\0';
             this.txtOption3.SelectedText = "";
-            this.txtOption3.Size = new System.Drawing.Size(372, 36);
+            this.txtOption3.Size = new System.Drawing.Size(372, 37);
             this.txtOption3.TabIndex = 12;
             // 
             // gunaLabel8
@@ -248,12 +250,12 @@
             this.txtAnswer.FocusedBaseColor = System.Drawing.Color.White;
             this.txtAnswer.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtAnswer.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtAnswer.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.txtAnswer.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAnswer.Location = new System.Drawing.Point(689, 552);
             this.txtAnswer.Name = "txtAnswer";
             this.txtAnswer.PasswordChar = '\0';
             this.txtAnswer.SelectedText = "";
-            this.txtAnswer.Size = new System.Drawing.Size(372, 36);
+            this.txtAnswer.Size = new System.Drawing.Size(372, 37);
             this.txtAnswer.TabIndex = 16;
             // 
             // gunaLabel10
@@ -303,6 +305,7 @@
             this.btnReset.TabIndex = 19;
             this.btnReset.Text = "Reset";
             this.btnReset.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
             // btnNext
             // 
@@ -330,6 +333,7 @@
             this.btnNext.TabIndex = 18;
             this.btnNext.Text = "Next";
             this.btnNext.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnNext.Click += new System.EventHandler(this.btnNext_Click);
             // 
             // btnFinish
             // 
@@ -357,6 +361,7 @@
             this.btnFinish.TabIndex = 20;
             this.btnFinish.Text = "Finish";
             this.btnFinish.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btnFinish.Click += new System.EventHandler(this.btnFinish_Click);
             // 
             // gunaElipse1
             // 
@@ -390,6 +395,7 @@
             this.Controls.Add(this.gunaLabel1);
             this.Name = "UC_Addnewquestion";
             this.Size = new System.Drawing.Size(1184, 945);
+            this.Load += new System.EventHandler(this.UC_Addnewquestion_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
