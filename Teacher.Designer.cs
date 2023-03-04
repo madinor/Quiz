@@ -31,6 +31,8 @@
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Teacher));
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
+            this.gunaElipse2 = new Guna.UI.WinForms.GunaElipse(this.components);
+            this.gunaElipse3 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnExit = new Guna.UI.WinForms.GunaButton();
             this.panel1 = new System.Windows.Forms.Panel();
@@ -39,9 +41,9 @@
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaAdvenceButton3 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.gunaPictureBox2 = new Guna.UI.WinForms.GunaPictureBox();
-            this.gunaAdvenceButton2 = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btnUpdateQuestion = new Guna.UI.WinForms.GunaAdvenceButton();
             this.btnAddNewQuestion = new Guna.UI.WinForms.GunaAdvenceButton();
-            this.gunaElipse2 = new Guna.UI.WinForms.GunaElipse(this.components);
+            this.uc_UpdateQuestion1 = new Quiz.Teacher_UC.Uc_UpdateQuestion();
             this.uC_Addnewquestion1 = new Quiz.Teacher_UC.UC_Addnewquestion();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -52,10 +54,19 @@
             // 
             this.gunaElipse1.TargetControl = this;
             // 
+            // gunaElipse2
+            // 
+            this.gunaElipse2.TargetControl = this.panel2;
+            // 
+            // gunaElipse3
+            // 
+            this.gunaElipse3.TargetControl = this.panel2;
+            // 
             // panel2
             // 
             this.panel2.BackgroundImage = global::Quiz.Properties.Resources.q5;
             this.panel2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel2.Controls.Add(this.uc_UpdateQuestion1);
             this.panel2.Controls.Add(this.uC_Addnewquestion1);
             this.panel2.Controls.Add(this.btnExit);
             this.panel2.Location = new System.Drawing.Point(367, 0);
@@ -96,7 +107,7 @@
             this.panel1.Controls.Add(this.gunaLabel1);
             this.panel1.Controls.Add(this.gunaAdvenceButton3);
             this.panel1.Controls.Add(this.gunaPictureBox2);
-            this.panel1.Controls.Add(this.gunaAdvenceButton2);
+            this.panel1.Controls.Add(this.btnUpdateQuestion);
             this.panel1.Controls.Add(this.btnAddNewQuestion);
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
@@ -218,35 +229,36 @@
             this.gunaPictureBox2.TabIndex = 0;
             this.gunaPictureBox2.TabStop = false;
             // 
-            // gunaAdvenceButton2
+            // btnUpdateQuestion
             // 
-            this.gunaAdvenceButton2.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton2.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton2.BaseColor = System.Drawing.Color.Indigo;
-            this.gunaAdvenceButton2.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.gunaAdvenceButton2.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.CheckedForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton2.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.CheckedImage")));
-            this.gunaAdvenceButton2.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaAdvenceButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaAdvenceButton2.ForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.Image")));
-            this.gunaAdvenceButton2.ImageSize = new System.Drawing.Size(35, 35);
-            this.gunaAdvenceButton2.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceButton2.Location = new System.Drawing.Point(22, 385);
-            this.gunaAdvenceButton2.Name = "gunaAdvenceButton2";
-            this.gunaAdvenceButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaAdvenceButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton2.OnHoverImage = null;
-            this.gunaAdvenceButton2.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
-            this.gunaAdvenceButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.Size = new System.Drawing.Size(308, 42);
-            this.gunaAdvenceButton2.TabIndex = 9;
-            this.gunaAdvenceButton2.Text = "Update Question";
+            this.btnUpdateQuestion.AnimationHoverSpeed = 0.07F;
+            this.btnUpdateQuestion.AnimationSpeed = 0.03F;
+            this.btnUpdateQuestion.BaseColor = System.Drawing.Color.Indigo;
+            this.btnUpdateQuestion.BorderColor = System.Drawing.Color.Black;
+            this.btnUpdateQuestion.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.btnUpdateQuestion.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btnUpdateQuestion.CheckedForeColor = System.Drawing.Color.White;
+            this.btnUpdateQuestion.CheckedImage = ((System.Drawing.Image)(resources.GetObject("btnUpdateQuestion.CheckedImage")));
+            this.btnUpdateQuestion.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.btnUpdateQuestion.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btnUpdateQuestion.FocusedColor = System.Drawing.Color.Empty;
+            this.btnUpdateQuestion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateQuestion.ForeColor = System.Drawing.Color.White;
+            this.btnUpdateQuestion.Image = ((System.Drawing.Image)(resources.GetObject("btnUpdateQuestion.Image")));
+            this.btnUpdateQuestion.ImageSize = new System.Drawing.Size(35, 35);
+            this.btnUpdateQuestion.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnUpdateQuestion.Location = new System.Drawing.Point(22, 385);
+            this.btnUpdateQuestion.Name = "btnUpdateQuestion";
+            this.btnUpdateQuestion.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btnUpdateQuestion.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btnUpdateQuestion.OnHoverForeColor = System.Drawing.Color.White;
+            this.btnUpdateQuestion.OnHoverImage = null;
+            this.btnUpdateQuestion.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(66)))), ((int)(((byte)(58)))), ((int)(((byte)(170)))));
+            this.btnUpdateQuestion.OnPressedColor = System.Drawing.Color.Black;
+            this.btnUpdateQuestion.Size = new System.Drawing.Size(308, 42);
+            this.btnUpdateQuestion.TabIndex = 9;
+            this.btnUpdateQuestion.Text = "Update Question";
+            this.btnUpdateQuestion.Click += new System.EventHandler(this.btnUpdateQuestion_Click);
             // 
             // btnAddNewQuestion
             // 
@@ -279,14 +291,18 @@
             this.btnAddNewQuestion.Text = "Add New Question";
             this.btnAddNewQuestion.Click += new System.EventHandler(this.btnAddNewQuestion_Click);
             // 
-            // gunaElipse2
+            // uc_UpdateQuestion1
             // 
-            this.gunaElipse2.TargetControl = this.panel2;
+            this.uc_UpdateQuestion1.BackColor = System.Drawing.Color.White;
+            this.uc_UpdateQuestion1.Location = new System.Drawing.Point(0, 0);
+            this.uc_UpdateQuestion1.Name = "uc_UpdateQuestion1";
+            this.uc_UpdateQuestion1.Size = new System.Drawing.Size(1184, 945);
+            this.uc_UpdateQuestion1.TabIndex = 2;
             // 
             // uC_Addnewquestion1
             // 
             this.uC_Addnewquestion1.BackColor = System.Drawing.Color.White;
-            this.uC_Addnewquestion1.Location = new System.Drawing.Point(0, 2);
+            this.uC_Addnewquestion1.Location = new System.Drawing.Point(0, 0);
             this.uC_Addnewquestion1.Name = "uC_Addnewquestion1";
             this.uC_Addnewquestion1.Size = new System.Drawing.Size(1184, 945);
             this.uC_Addnewquestion1.TabIndex = 1;
@@ -323,9 +339,11 @@
         private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton5;
         private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton4;
         private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton3;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton2;
+        private Guna.UI.WinForms.GunaAdvenceButton btnUpdateQuestion;
         private Guna.UI.WinForms.GunaButton btnExit;
         private Guna.UI.WinForms.GunaElipse gunaElipse2;
         private Teacher_UC.UC_Addnewquestion uC_Addnewquestion1;
+        private Teacher_UC.Uc_UpdateQuestion uc_UpdateQuestion1;
+        private Guna.UI.WinForms.GunaElipse gunaElipse3;
     }
 }

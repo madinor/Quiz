@@ -77,6 +77,12 @@
     <Compile Include="Teacher_UC\UC_Addnewquestion.Designer.cs">
       <DependentUpon>UC_Addnewquestion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Teacher_UC\Uc_UpdateQuestion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Teacher_UC\Uc_UpdateQuestion.Designer.cs">
+      <DependentUpon>Uc_UpdateQuestion.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -90,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Teacher_UC\UC_Addnewquestion.resx">
       <DependentUpon>UC_Addnewquestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_UC\Uc_UpdateQuestion.resx">
+      <DependentUpon>Uc_UpdateQuestion.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -193,6 +202,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-spinner.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

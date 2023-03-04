@@ -30,6 +30,8 @@ namespace Quiz
         private void Teacher_Load(object sender, EventArgs e)
         {
             uC_Addnewquestion1.Visible= false;
+            uc_UpdateQuestion1.Visible= false;
+            
             
         }
 
@@ -37,6 +39,13 @@ namespace Quiz
         {
             uC_Addnewquestion1.Visible = true;
             uC_Addnewquestion1.BringToFront();
+
+        }
+
+        private void btnUpdateQuestion_Click(object sender, EventArgs e)
+        {
+            uc_UpdateQuestion1.Visible= true;
+            uc_UpdateQuestion1.BringToFront();
 
         }
     }
