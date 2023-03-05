@@ -83,6 +83,12 @@
     <Compile Include="Teacher_UC\Uc_UpdateQuestion.Designer.cs">
       <DependentUpon>Uc_UpdateQuestion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Teacher_UC\UC_ViewDelete.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Teacher_UC\UC_ViewDelete.Designer.cs">
+      <DependentUpon>UC_ViewDelete.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -99,6 +105,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Teacher_UC\Uc_UpdateQuestion.resx">
       <DependentUpon>Uc_UpdateQuestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_UC\UC_ViewDelete.resx">
+      <DependentUpon>UC_ViewDelete.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -117,58 +126,10 @@
     <None Include="Resources\Code+Kentucky+Celebrates.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\codelouweb.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\backgound.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pexels-yusuf-p-11382581.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\backgound1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Emerald Water.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Behongo.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\codek.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\codek1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\teacher-png-46713.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\teacher-png-467131.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\pencill.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\admin3.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\11.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\q1.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\q2.jpg" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\q3.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\q5.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\admin.png" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\admin1.png" />
@@ -198,9 +159,6 @@
     <None Include="Resources\reset.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\save.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\download.png" />
   </ItemGroup>
   <ItemGroup>
@@ -208,6 +166,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-spinner.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\folder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eye1.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

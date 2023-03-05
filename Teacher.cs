@@ -31,7 +31,7 @@ namespace Quiz
         {
             uC_Addnewquestion1.Visible= false;
             uc_UpdateQuestion1.Visible= false;
-            
+            uC_ViewDelete1.Visible= false;
             
         }
 
@@ -44,9 +44,19 @@ namespace Quiz
 
         private void btnUpdateQuestion_Click(object sender, EventArgs e)
         {
-            uc_UpdateQuestion1.Visible= true;
+            uc_UpdateQuestion1.Visible = true;
             uc_UpdateQuestion1.BringToFront();
+        }
 
+        private void btnViewDelete_Click(object sender, EventArgs e)
+        {
+            uC_ViewDelete1.Visible = true;
+            uC_ViewDelete1.BringToFront();
+        }
+
+        private void gunaAdvenceButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

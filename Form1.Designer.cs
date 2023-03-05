@@ -355,7 +355,9 @@
             // gunaPictureBox1
             // 
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
+            this.gunaPictureBox1.ErrorImage = null;
             this.gunaPictureBox1.Image = global::Quiz.Properties.Resources.Code_Kentucky_Celebrates;
+            this.gunaPictureBox1.InitialImage = null;
             this.gunaPictureBox1.Location = new System.Drawing.Point(1, -2);
             this.gunaPictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.gunaPictureBox1.Name = "gunaPictureBox1";

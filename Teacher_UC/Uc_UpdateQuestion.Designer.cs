@@ -51,7 +51,6 @@
             this.btnReset = new Guna.UI.WinForms.GunaButton();
             this.btnUpdate = new Guna.UI.WinForms.GunaButton();
             this.btnSync = new Guna.UI.WinForms.GunaButton();
-            this.gunaWinSwitch1 = new Guna.UI.WinForms.GunaWinSwitch();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -374,23 +373,11 @@
             this.btnSync.TabIndex = 20;
             this.btnSync.Click += new System.EventHandler(this.btnSync_Click);
             // 
-            // gunaWinSwitch1
-            // 
-            this.gunaWinSwitch1.BaseColor = System.Drawing.SystemColors.Control;
-            this.gunaWinSwitch1.CheckedOffColor = System.Drawing.Color.DarkGray;
-            this.gunaWinSwitch1.CheckedOnColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.gunaWinSwitch1.FillColor = System.Drawing.Color.White;
-            this.gunaWinSwitch1.Location = new System.Drawing.Point(1013, 333);
-            this.gunaWinSwitch1.Name = "gunaWinSwitch1";
-            this.gunaWinSwitch1.Size = new System.Drawing.Size(75, 28);
-            this.gunaWinSwitch1.TabIndex = 21;
-            // 
             // Uc_UpdateQuestion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.gunaWinSwitch1);
             this.Controls.Add(this.btnSync);
             this.Controls.Add(this.gunaPictureBox1);
             this.Controls.Add(this.btnReset);
@@ -445,6 +432,5 @@
         private Guna.UI.WinForms.GunaPictureBox gunaPictureBox1;
         private Guna.UI.WinForms.GunaButton btnReset;
         private Guna.UI.WinForms.GunaButton btnSync;
-        private Guna.UI.WinForms.GunaWinSwitch gunaWinSwitch1;
     }
 }
