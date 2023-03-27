@@ -68,6 +68,12 @@ namespace Quiz.Teacher_UC
             }
             
         }
+
+        private void btnSync_Click(object sender, EventArgs e)
+        {
+            UC_ViewDelete_Load(this, null);
+        }
+
         private void btnDelete_Click(object sender, EventArgs e)
         {
             if (MessageBox.Show("Are you sure?","Delete Confirmation!!!",MessageBoxButtons.YesNo,MessageBoxIcon.Warning)==DialogResult.Yes)

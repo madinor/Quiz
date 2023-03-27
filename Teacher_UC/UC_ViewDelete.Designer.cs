@@ -88,6 +88,7 @@
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
             this.DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             this.DataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.DataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.DisplayedCells;
             this.DataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.DataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.DataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -111,13 +112,13 @@
             this.DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
             this.DataGridView1.EnableHeadersVisualStyles = false;
             this.DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.DataGridView1.Location = new System.Drawing.Point(82, 283);
+            this.DataGridView1.Location = new System.Drawing.Point(8, 283);
             this.DataGridView1.Name = "DataGridView1";
             this.DataGridView1.RowHeadersVisible = false;
             this.DataGridView1.RowHeadersWidth = 51;
             this.DataGridView1.RowTemplate.Height = 24;
             this.DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.DataGridView1.Size = new System.Drawing.Size(975, 503);
+            this.DataGridView1.Size = new System.Drawing.Size(1164, 503);
             this.DataGridView1.TabIndex = 26;
             this.DataGridView1.Theme = Guna.UI.WinForms.GunaDataGridViewPresetThemes.Guna;
             this.DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
@@ -167,6 +168,7 @@
             this.btnSync.OnPressedColor = System.Drawing.Color.Black;
             this.btnSync.Size = new System.Drawing.Size(35, 35);
             this.btnSync.TabIndex = 25;
+            this.btnSync.Click += new System.EventHandler(this.btnSync_Click);
             // 
             // gunaPictureBox1
             // 

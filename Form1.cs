@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+ 
 namespace Quiz
 {
     public partial class Form1 : Form
@@ -15,6 +15,7 @@ namespace Quiz
         public Form1()
         {
             InitializeComponent();
+            
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -25,21 +26,27 @@ namespace Quiz
         private void Form1_Load(object sender, EventArgs e)
         {
             panel1.Visible=false;
-            panel2.Visible=false;
+            //panel2.Visible=false;
             lblWrong.Visible=false;
+            //Teacher.instance.pn.Visible= true ;
         }
 
         private void comboSelectUser_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboSelectUser.SelectedIndex == 0)
             {
-                panel2.Visible = true;
-                panel1.Visible = false;
+                Teacher teacher = new Teacher();
+                teacher.Show();
+                this.Hide();
+                teacher.gPanel1.Visible=true;
+                teacher.uC_StudentQuiz1.Visible = true;
+                teacher.uC_StudentQuiz1.BringToFront();
             }
+
             else if(comboSelectUser.SelectedIndex == 1)
             { 
                 panel1.Visible = true;
-                panel2.Visible = false;
+                //panel2.Visible = false;
             }
         }
 

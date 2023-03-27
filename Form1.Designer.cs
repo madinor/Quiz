@@ -43,16 +43,9 @@
             this.gunaLabel5 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel4 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel3 = new Guna.UI.WinForms.GunaLabel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.BtnStudentRegister = new Guna.UI.WinForms.GunaButton();
-            this.btnStudentLogin = new Guna.UI.WinForms.GunaButton();
-            this.txtStudentNumber = new Guna.UI.WinForms.GunaTextBox();
-            this.gunaLabel8 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaLabel9 = new Guna.UI.WinForms.GunaLabel();
             this.gunaPictureBox1 = new Guna.UI.WinForms.GunaPictureBox();
             this.btnExit = new Guna.UI.WinForms.GunaButton();
             this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -243,115 +236,6 @@
             this.gunaLabel3.TabIndex = 0;
             this.gunaLabel3.Text = "Teacher Login";
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.BtnStudentRegister);
-            this.panel2.Controls.Add(this.btnStudentLogin);
-            this.panel2.Controls.Add(this.txtStudentNumber);
-            this.panel2.Controls.Add(this.gunaLabel8);
-            this.panel2.Controls.Add(this.gunaLabel9);
-            this.panel2.Location = new System.Drawing.Point(244, 209);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(521, 544);
-            this.panel2.TabIndex = 8;
-            // 
-            // BtnStudentRegister
-            // 
-            this.BtnStudentRegister.AnimationHoverSpeed = 0.07F;
-            this.BtnStudentRegister.AnimationSpeed = 0.03F;
-            this.BtnStudentRegister.BackColor = System.Drawing.Color.Transparent;
-            this.BtnStudentRegister.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.BtnStudentRegister.BorderColor = System.Drawing.Color.Black;
-            this.BtnStudentRegister.BorderSize = 1;
-            this.BtnStudentRegister.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.BtnStudentRegister.FocusedColor = System.Drawing.Color.Empty;
-            this.BtnStudentRegister.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnStudentRegister.ForeColor = System.Drawing.Color.White;
-            this.BtnStudentRegister.Image = null;
-            this.BtnStudentRegister.ImageSize = new System.Drawing.Size(20, 20);
-            this.BtnStudentRegister.Location = new System.Drawing.Point(32, 416);
-            this.BtnStudentRegister.Margin = new System.Windows.Forms.Padding(4);
-            this.BtnStudentRegister.Name = "BtnStudentRegister";
-            this.BtnStudentRegister.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.BtnStudentRegister.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.BtnStudentRegister.OnHoverForeColor = System.Drawing.Color.White;
-            this.BtnStudentRegister.OnHoverImage = null;
-            this.BtnStudentRegister.OnPressedColor = System.Drawing.Color.Black;
-            this.BtnStudentRegister.Radius = 20;
-            this.BtnStudentRegister.Size = new System.Drawing.Size(457, 44);
-            this.BtnStudentRegister.TabIndex = 7;
-            this.BtnStudentRegister.Text = "Register";
-            this.BtnStudentRegister.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btnStudentLogin
-            // 
-            this.btnStudentLogin.AnimationHoverSpeed = 0.07F;
-            this.btnStudentLogin.AnimationSpeed = 0.03F;
-            this.btnStudentLogin.BackColor = System.Drawing.Color.Transparent;
-            this.btnStudentLogin.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.btnStudentLogin.BorderColor = System.Drawing.Color.Black;
-            this.btnStudentLogin.BorderSize = 1;
-            this.btnStudentLogin.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btnStudentLogin.FocusedColor = System.Drawing.Color.Empty;
-            this.btnStudentLogin.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnStudentLogin.ForeColor = System.Drawing.Color.White;
-            this.btnStudentLogin.Image = null;
-            this.btnStudentLogin.ImageSize = new System.Drawing.Size(20, 20);
-            this.btnStudentLogin.Location = new System.Drawing.Point(36, 325);
-            this.btnStudentLogin.Margin = new System.Windows.Forms.Padding(4);
-            this.btnStudentLogin.Name = "btnStudentLogin";
-            this.btnStudentLogin.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.btnStudentLogin.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btnStudentLogin.OnHoverForeColor = System.Drawing.Color.White;
-            this.btnStudentLogin.OnHoverImage = null;
-            this.btnStudentLogin.OnPressedColor = System.Drawing.Color.Black;
-            this.btnStudentLogin.Radius = 20;
-            this.btnStudentLogin.Size = new System.Drawing.Size(457, 44);
-            this.btnStudentLogin.TabIndex = 6;
-            this.btnStudentLogin.Text = " Login";
-            this.btnStudentLogin.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtStudentNumber
-            // 
-            this.txtStudentNumber.BaseColor = System.Drawing.Color.White;
-            this.txtStudentNumber.BorderColor = System.Drawing.Color.Silver;
-            this.txtStudentNumber.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtStudentNumber.FocusedBaseColor = System.Drawing.Color.White;
-            this.txtStudentNumber.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.txtStudentNumber.FocusedForeColor = System.Drawing.Color.Black;
-            this.txtStudentNumber.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtStudentNumber.Location = new System.Drawing.Point(36, 214);
-            this.txtStudentNumber.Margin = new System.Windows.Forms.Padding(4);
-            this.txtStudentNumber.Name = "txtStudentNumber";
-            this.txtStudentNumber.PasswordChar = '\0';
-            this.txtStudentNumber.SelectedText = "";
-            this.txtStudentNumber.Size = new System.Drawing.Size(457, 46);
-            this.txtStudentNumber.TabIndex = 4;
-            this.txtStudentNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // gunaLabel8
-            // 
-            this.gunaLabel8.AutoSize = true;
-            this.gunaLabel8.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel8.Location = new System.Drawing.Point(185, 182);
-            this.gunaLabel8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.gunaLabel8.Name = "gunaLabel8";
-            this.gunaLabel8.Size = new System.Drawing.Size(157, 28);
-            this.gunaLabel8.TabIndex = 1;
-            this.gunaLabel8.Text = "Student Number";
-            // 
-            // gunaLabel9
-            // 
-            this.gunaLabel9.AutoSize = true;
-            this.gunaLabel9.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel9.Location = new System.Drawing.Point(208, 34);
-            this.gunaLabel9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.gunaLabel9.Name = "gunaLabel9";
-            this.gunaLabel9.Size = new System.Drawing.Size(144, 28);
-            this.gunaLabel9.TabIndex = 0;
-            this.gunaLabel9.Text = "Student Login";
-            // 
             // gunaPictureBox1
             // 
             this.gunaPictureBox1.BaseColor = System.Drawing.Color.White;
@@ -396,8 +280,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1550, 945);
-            this.Controls.Add(this.panel2);
+            this.ClientSize = new System.Drawing.Size(1550, 900);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.gunaPictureBox1);
             this.Controls.Add(this.btnExit);
@@ -412,8 +295,6 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gunaPictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -437,12 +318,6 @@
         private Guna.UI.WinForms.GunaLabel gunaLabel4;
         private Guna.UI.WinForms.GunaLabel gunaLabel3;
         private Guna.UI.WinForms.GunaCheckBox checkBoxShowHide;
-        private System.Windows.Forms.Panel panel2;
-        private Guna.UI.WinForms.GunaButton btnStudentLogin;
-        private Guna.UI.WinForms.GunaTextBox txtStudentNumber;
-        private Guna.UI.WinForms.GunaLabel gunaLabel8;
-        private Guna.UI.WinForms.GunaLabel gunaLabel9;
-        private Guna.UI.WinForms.GunaButton BtnStudentRegister;
     }
 }
 

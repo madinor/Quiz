@@ -121,19 +121,19 @@
             this.txtQuestion.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtQuestion.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtQuestion.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtQuestion.Location = new System.Drawing.Point(26, 242);
+            this.txtQuestion.Location = new System.Drawing.Point(26, 217);
             this.txtQuestion.Multiline = true;
             this.txtQuestion.Name = "txtQuestion";
             this.txtQuestion.PasswordChar = '\0';
             this.txtQuestion.SelectedText = "";
-            this.txtQuestion.Size = new System.Drawing.Size(787, 50);
+            this.txtQuestion.Size = new System.Drawing.Size(1122, 50);
             this.txtQuestion.TabIndex = 6;
             // 
             // gunaLabel5
             // 
             this.gunaLabel5.AutoSize = true;
             this.gunaLabel5.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel5.Location = new System.Drawing.Point(21, 211);
+            this.gunaLabel5.Location = new System.Drawing.Point(21, 186);
             this.gunaLabel5.Name = "gunaLabel5";
             this.gunaLabel5.Size = new System.Drawing.Size(95, 28);
             this.gunaLabel5.TabIndex = 5;
@@ -148,18 +148,18 @@
             this.txtOption1.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtOption1.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtOption1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtOption1.Location = new System.Drawing.Point(26, 333);
+            this.txtOption1.Location = new System.Drawing.Point(26, 308);
             this.txtOption1.Name = "txtOption1";
             this.txtOption1.PasswordChar = '\0';
             this.txtOption1.SelectedText = "";
-            this.txtOption1.Size = new System.Drawing.Size(787, 50);
+            this.txtOption1.Size = new System.Drawing.Size(1122, 50);
             this.txtOption1.TabIndex = 8;
             // 
             // gunaLabel6
             // 
             this.gunaLabel6.AutoSize = true;
             this.gunaLabel6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel6.Location = new System.Drawing.Point(21, 302);
+            this.gunaLabel6.Location = new System.Drawing.Point(21, 277);
             this.gunaLabel6.Name = "gunaLabel6";
             this.gunaLabel6.Size = new System.Drawing.Size(88, 28);
             this.gunaLabel6.TabIndex = 7;
@@ -174,18 +174,18 @@
             this.txtOption2.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtOption2.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtOption2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtOption2.Location = new System.Drawing.Point(30, 424);
+            this.txtOption2.Location = new System.Drawing.Point(30, 399);
             this.txtOption2.Name = "txtOption2";
             this.txtOption2.PasswordChar = '\0';
             this.txtOption2.SelectedText = "";
-            this.txtOption2.Size = new System.Drawing.Size(787, 50);
+            this.txtOption2.Size = new System.Drawing.Size(1122, 50);
             this.txtOption2.TabIndex = 10;
             // 
             // gunaLabel7
             // 
             this.gunaLabel7.AutoSize = true;
             this.gunaLabel7.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel7.Location = new System.Drawing.Point(25, 393);
+            this.gunaLabel7.Location = new System.Drawing.Point(25, 368);
             this.gunaLabel7.Name = "gunaLabel7";
             this.gunaLabel7.Size = new System.Drawing.Size(91, 28);
             this.gunaLabel7.TabIndex = 9;
@@ -200,18 +200,18 @@
             this.txtOption3.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtOption3.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtOption3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtOption3.Location = new System.Drawing.Point(30, 515);
+            this.txtOption3.Location = new System.Drawing.Point(30, 490);
             this.txtOption3.Name = "txtOption3";
             this.txtOption3.PasswordChar = '\0';
             this.txtOption3.SelectedText = "";
-            this.txtOption3.Size = new System.Drawing.Size(787, 50);
+            this.txtOption3.Size = new System.Drawing.Size(1122, 50);
             this.txtOption3.TabIndex = 12;
             // 
             // gunaLabel8
             // 
             this.gunaLabel8.AutoSize = true;
             this.gunaLabel8.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel8.Location = new System.Drawing.Point(25, 484);
+            this.gunaLabel8.Location = new System.Drawing.Point(25, 459);
             this.gunaLabel8.Name = "gunaLabel8";
             this.gunaLabel8.Size = new System.Drawing.Size(91, 28);
             this.gunaLabel8.TabIndex = 11;
@@ -225,19 +225,19 @@
             this.txtOption4.FocusedBaseColor = System.Drawing.Color.White;
             this.txtOption4.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtOption4.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtOption4.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtOption4.Location = new System.Drawing.Point(30, 606);
+            this.txtOption4.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtOption4.Location = new System.Drawing.Point(30, 581);
             this.txtOption4.Name = "txtOption4";
             this.txtOption4.PasswordChar = '\0';
             this.txtOption4.SelectedText = "";
-            this.txtOption4.Size = new System.Drawing.Size(787, 50);
+            this.txtOption4.Size = new System.Drawing.Size(1122, 50);
             this.txtOption4.TabIndex = 14;
             // 
             // gunaLabel9
             // 
             this.gunaLabel9.AutoSize = true;
             this.gunaLabel9.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel9.Location = new System.Drawing.Point(29, 574);
+            this.gunaLabel9.Location = new System.Drawing.Point(29, 549);
             this.gunaLabel9.Name = "gunaLabel9";
             this.gunaLabel9.Size = new System.Drawing.Size(92, 28);
             this.gunaLabel9.TabIndex = 13;
@@ -252,18 +252,18 @@
             this.txtAnswer.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.txtAnswer.FocusedForeColor = System.Drawing.SystemColors.ControlText;
             this.txtAnswer.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAnswer.Location = new System.Drawing.Point(30, 701);
+            this.txtAnswer.Location = new System.Drawing.Point(30, 676);
             this.txtAnswer.Name = "txtAnswer";
             this.txtAnswer.PasswordChar = '\0';
             this.txtAnswer.SelectedText = "";
-            this.txtAnswer.Size = new System.Drawing.Size(787, 50);
+            this.txtAnswer.Size = new System.Drawing.Size(1122, 50);
             this.txtAnswer.TabIndex = 16;
             // 
             // gunaLabel10
             // 
             this.gunaLabel10.AutoSize = true;
             this.gunaLabel10.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel10.Location = new System.Drawing.Point(25, 663);
+            this.gunaLabel10.Location = new System.Drawing.Point(25, 638);
             this.gunaLabel10.Name = "gunaLabel10";
             this.gunaLabel10.Size = new System.Drawing.Size(79, 28);
             this.gunaLabel10.TabIndex = 15;
@@ -294,7 +294,7 @@
             this.btnFinish.ForeColor = System.Drawing.Color.White;
             this.btnFinish.Image = null;
             this.btnFinish.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnFinish.Location = new System.Drawing.Point(689, 850);
+            this.btnFinish.Location = new System.Drawing.Point(689, 807);
             this.btnFinish.Name = "btnFinish";
             this.btnFinish.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnFinish.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -326,7 +326,7 @@
             this.btnReset.ForeColor = System.Drawing.Color.White;
             this.btnReset.Image = global::Quiz.Properties.Resources.download;
             this.btnReset.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnReset.Location = new System.Drawing.Point(901, 785);
+            this.btnReset.Location = new System.Drawing.Point(901, 749);
             this.btnReset.Name = "btnReset";
             this.btnReset.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnReset.OnHoverBorderColor = System.Drawing.Color.Black;
@@ -354,7 +354,7 @@
             this.btnNext.ForeColor = System.Drawing.Color.White;
             this.btnNext.Image = global::Quiz.Properties.Resources.next;
             this.btnNext.ImageSize = new System.Drawing.Size(30, 30);
-            this.btnNext.Location = new System.Drawing.Point(689, 785);
+            this.btnNext.Location = new System.Drawing.Point(689, 749);
             this.btnNext.Name = "btnNext";
             this.btnNext.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
             this.btnNext.OnHoverBorderColor = System.Drawing.Color.Black;

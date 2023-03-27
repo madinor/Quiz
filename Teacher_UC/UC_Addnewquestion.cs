@@ -83,6 +83,7 @@ namespace Quiz.Teacher_UC
             {
                 txtSet.Text = (Int64.Parse(txtSet.Text.ToString()) + 1).ToString();
                 lblQuestionNumber.Text = "1";
+                lblNoset.Visible = false;
             }
         }
 

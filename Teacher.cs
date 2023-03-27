@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Guna.UI.WinForms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,14 @@ namespace Quiz
 {
     public partial class Teacher : Form
     {
+       // public static Teacher instance;
+       // public Panel pn;
+        
         public Teacher()
         {
             InitializeComponent();
+           // instance = this;
+           // pn=gPanel1 ;
         }
 
         private void gunaButton1_Click(object sender, EventArgs e)
@@ -32,6 +38,8 @@ namespace Quiz
             uC_Addnewquestion1.Visible= false;
             uc_UpdateQuestion1.Visible= false;
             uC_ViewDelete1.Visible= false;
+            uC_StudentQuiz1.Visible= false;
+            gPanel1.Visible= false;
             
         }
 
@@ -57,6 +65,11 @@ namespace Quiz
         private void gunaAdvenceButton1_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void gunaLabel2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

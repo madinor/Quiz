@@ -77,6 +77,12 @@
     <Compile Include="Teacher_UC\UC_Addnewquestion.Designer.cs">
       <DependentUpon>UC_Addnewquestion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Teacher_UC\UC_StudentQuiz.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Teacher_UC\UC_StudentQuiz.Designer.cs">
+      <DependentUpon>UC_StudentQuiz.cs</DependentUpon>
+    </Compile>
     <Compile Include="Teacher_UC\Uc_UpdateQuestion.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -102,6 +108,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Teacher_UC\UC_Addnewquestion.resx">
       <DependentUpon>UC_Addnewquestion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher_UC\UC_StudentQuiz.resx">
+      <DependentUpon>UC_StudentQuiz.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Teacher_UC\Uc_UpdateQuestion.resx">
       <DependentUpon>Uc_UpdateQuestion.cs</DependentUpon>
@@ -181,6 +190,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\eye1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\126.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quiz.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quiz.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\quiz1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
